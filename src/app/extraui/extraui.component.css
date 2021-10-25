@@ -1,0 +1,18 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.card {
+    width: 27.4%;
+    height: 82.45vh;
+    float: left;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+.header-image {
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/29/21/42/school-1555910_960_720.png');
+    background-size: cover;
+    float: left;
+}

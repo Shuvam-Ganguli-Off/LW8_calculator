@@ -1,0 +1,27 @@
+<body>
+<div class="back">
+  <h1>CALCULATOR</h1>
+  <div class="form">
+    <h2>ARITHEMETIC OPERATIONS</h2>
+      <h3>Enter two numbers in the fields below:</h3>
+      <div class="input">
+        <input [(ngModel)]="n1" type="number" name="n1">
+        <input [(ngModel)]="n2" type="number" name="n2"><br><br>
+      </div><br>
+      <button (click)="add();">ADDITION</button>
+      <button (click)="sub()">SUBTRACT</button>
+      <button (click)="mul()">MULTIPLY</button>
+      <button (click)="div()">DIVIDE</button>
+      <p><h3>The result of the operation is - <b>{{ans}}</b></h3>
+      <br><br>
+    <h2>FACTORIAL AND CHECK IF PRIME</h2>
+      <h3>Enter a number in the field below:</h3>
+      <input [(ngModel)]="num" type="number" name="n">
+      <br><br>
+      <button (click)= "fact(num)">FACTORIAL</button>
+      <p><h3>The factorial of the number is - <b>{{ans2}}</b></h3>
+      <button (click)="prime(num)">IS PRIME</button>
+      <p><h3>The number is - <b>{{str}}</b></h3>
+  </div>
+</div>
+</body>
